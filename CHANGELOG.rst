@@ -1,3 +1,9 @@
+`Unreleased`_
+=============
+
+- Modify the way the ``extra`` dict is used by ``LogRecord`` in order to prevent possible ``KeyError`` when a standard ``logging`` handler is used (`#271 <https://github.com/Delgan/loguru/issues/271>`_).
+
+
 `0.5.0`_ (2020-05-17)
 =====================
 
