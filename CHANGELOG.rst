@@ -1,3 +1,9 @@
+`Unreleased`_
+=============
+
+- Add a new ``default`` optional argument to ``logger.catch()``, it should be the returned value by the decorated function in case an error occurred (`#272 <https://github.com/Delgan/loguru/issues/272>`_).
+
+
 `0.5.0`_ (2020-05-17)
 =====================
 
